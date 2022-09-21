@@ -10,7 +10,8 @@ import org.springframework.web.bind.annotation.*;
 import org.springframework.web.server.ResponseStatusException;
 import se331.rest.entity.Event;
 import se331.rest.service.EventService;
-
+import se331.rest.service.OrganizerService;
+import se331.rest.entity.Organizer;
 import javax.annotation.PostConstruct;
 import java.util.ArrayList;
 import java.util.List;
